@@ -3,7 +3,7 @@ from sqlalchemy import create_engine, MetaData, Table, select
 
 import numpy as np
 import pandas as pd
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, date
 
 with open("../kap_db_info.txt") as f:
     lines = f.readlines()
